@@ -1,0 +1,25 @@
+Pre-requirements:
+- Python 3.7
+- 
+
+
+1. Setting virtualenv
+3. install required libs
+    - Datetime
+    - Hashlib
+    - Flask
+    - Jsonify
+    - Json
+4. Import libs
+5. Create the Blockchain
+    - Create class Blockchain
+    - Define function: init (chains, genesis block)
+    - Define function: create block (block dict, append to chain)
+    - Define function: get prev block
+    - Define function: proof of work 
+    - Define function: hash
+    - Define function: is chain valid
+6. Mining our blockchain
+    - Init Flask
+    - Define route
+    - Define function: mine_block
